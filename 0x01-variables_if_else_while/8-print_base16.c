@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+*main function prints hexadecimal numbers in lowercase.
+*
+*return alwas give final of execution
+*/
 
 int main(void)
 {
