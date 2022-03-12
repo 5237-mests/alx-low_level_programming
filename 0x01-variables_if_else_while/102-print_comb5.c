@@ -33,12 +33,12 @@ int main(void)
 		      putchar(' ');		      
 		      putchar(x);
 		      putchar(y);
-
-		      if(y==57&&x==57&&j==56&&i==57)	    
-		       break;
+		      if(y==57&&x==57&&j==56&&i==57)
+		      {
+			      break;
+		      }
 		       putchar(',');
-		       putchar(' ');
-		     
+		       putchar(' ');    
 		     }
 		  y++;
 		}
