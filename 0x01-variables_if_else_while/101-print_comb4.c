@@ -27,14 +27,14 @@ if (j < x)
 putchar(i);
 putchar(j);
 putchar(x);
+putchar(',');
+putchar(' ');
 if (x == 57 && j == 56)
 {
 if (i == 55)
 {
 break;
 }
-putchar(',');
-putchar(' ');
 }
 }
 }
