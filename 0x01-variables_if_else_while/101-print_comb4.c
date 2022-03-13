@@ -6,45 +6,43 @@
  */
 int main(void)
 {
-  int i=48;
-  int j=48;
-  int x=48;
-  while(i<58)
-    {
-      j=48;
-      while(j<58)
-	{
-	  x=48;
-	  while(x<58)
-	    {
-	      if(i<j&&j<x)
-		{
-		  if(j<x)
-		    {
-		      putchar(i);
-		      putchar(j);
-		      putchar(x);
+int i = 48;
+int j = 48;
+int x = 48;
 
-		      if(x==57&&j==56)
-			{
-			  if(i==55)
-			    {
-			      break;
-			    }
-			}
-		      putchar(',');
-		      putchar(' ');
-		    }
-		}
+while (i < 58)
+{
+j = 48;
 
-	      x++;
-	    }
+while (j < 58)
+{
+x = 48;
 
-	  j++;
-	}
-	
-      i++;
-    }
-  putchar('\n');
-  return(0);
+while (x < 58)
+{
+if (i < j && j < x)
+{
+if (j < x)
+{
+putchar(i);
+putchar(j);
+putchar(x);
+if (x == 57 && j == 56)
+{
+if (i == 55)
+{
+break;
+}
+putchar(',');
+putchar(' ');
+}
+}
+x++;
+}
+j++;
+}
+i++;
+}
+putchar('\n');
+return (0);
 }
