@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-  char aA[52]="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  int i;
-  for(i=0; i<52; i++)
-  {
-  putchar(aA[i]);
-  }
-  putchar('\n');
-  return(0);
-  
+char aA[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+int i;
+
+for (i = 0; i < 52; i++)
+{
+putchar(aA[i]);
+}
+putchar('\n');
+return (0);
 }
