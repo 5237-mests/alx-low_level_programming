@@ -37,6 +37,7 @@ putchar(',');
 putchar(' ');
 }
 }
+}
 x++;
 }
 j++;
