@@ -7,23 +7,22 @@
  */
 void print_to_98(int n)
 {
-	int i = n;
-	
+	int i;
+
 	if (n > 98)
 	{
-		while (i >= 98)
+		for (i = n; i > 97; i--)
 		{
 			printf("%d", i);
 			if (i != 98)
 			{
 				printf(", ");
 			}
-			i--;
 		}
 	}
 	else
 	{
-		while (i < 99)
+		for (i = n; i < 99; i++)
 		{
 			printf("%d", i);
 			if (i != 98)
@@ -31,6 +30,7 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
+
 	}
 	printf("\n");
 }
