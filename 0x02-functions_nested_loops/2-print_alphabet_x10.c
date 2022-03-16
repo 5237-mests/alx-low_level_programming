@@ -15,7 +15,6 @@ void print_alphabet_x10(void)
     while (j < 123)
     {
       _putchar(j);
-      _putchar('\n');
     j++;
     }
   _putchar('\n');
