@@ -5,10 +5,7 @@
  *Return: 0 (success)
  *
  */
-
-int main(void)
-{
-	printf("%s\n", _FILE_);
-
-	return (0);
+int main(int argc, char *argv[]) {
+	printf("program's name is: %s\n",argv[0]);
+	return 0;
 }
